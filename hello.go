@@ -22,6 +22,7 @@ type Document struct {
 var DOCUMENTS []Document
 
 func main() {
+	RunRedisExample()
 	DOCUMENTS = []Document{
 		{Id: 1, Title: "Daftar Belanja", Content: "Telur, Roti tawar, Laundry", LastUpdate: time.Now()},
 		{Id: 2, Title: "Agenda", Content: "Cari Kontrakan", LastUpdate: time.Now()},
